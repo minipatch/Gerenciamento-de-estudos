@@ -276,7 +276,7 @@ int main()
         return 0;
     }
 
-    if (palavra == "login")
+    else if (palavra == "login")
     {
 
         int loop = 1;
@@ -383,7 +383,7 @@ int main()
         }
     }
 
-    if(palavra == "recuperar conta"){
+    else if(palavra == "recuperar conta"){
         std::cout<<"insira seu login"<<std::endl;
         std::string login;
         std::string senha;
